@@ -47,6 +47,5 @@ sap.designstudio.sdk.Component.subclass("com.test.issue.Select", function() {
 		});
 		this.$().html("");
 		this.$().append(select);
-		this.$().append(btn);
 	}; 
 })
