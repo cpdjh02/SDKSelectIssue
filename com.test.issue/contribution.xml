@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sdkExtension
+	xmlns="http://www.sap.com/bi/zen/sdk"
+	id="com.test.issue"
+	title="Design Studio SDK Extensions"
+	version="1.0"
+	vendor="Acme Inc">
+	
+	<component
+		id="Select"
+		title="Select Box"
+		tooltip="Displays a select box"
+		databound="true"
+		icon="res/icon_cal.png"
+		handlerType="div"
+		group="acme">
+		<jsInclude>res/js/Select.js</jsInclude>		
+		<property
+			id="onSelect"
+			title="On Select"
+			type="ScriptText"/>
+		<property id="selectedKey" title="Selected Key" type="String" tooltip="The key of the selected element/member"  visible="false"></property>
+		<property id="selectedText" title="Selected Text" type="String" tooltip="The text of the selected element/member"  visible="false"></property>
+	</component>
+</sdkExtension>

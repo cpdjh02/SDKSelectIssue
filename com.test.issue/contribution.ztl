@@ -1,0 +1,12 @@
+
+
+class com.test.issue.Select extends Component {
+	
+	String getSelectedKey(){*
+		return this.selectedKey;
+	*}
+	
+	String getSelectedText(){*
+		return this.selectedText;
+	*}
+}
